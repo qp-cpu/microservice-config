@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+      -dev
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microsevice-config-atguigu-dev
+
+---
+spring:
+  profiles:test
+  application:
+    name: micrservice-config-atguigu-test
